@@ -27,6 +27,13 @@ int main()
     _dots.push_back( new Dot(3,6) );
     _dots.push_back( new Dot(3,7) );
 
+    cout << endl << "All of dots" << endl;
+    for (auto dot = _dots.begin(); dot != _dots.end(); ++dot) {
+        int dotX = (* dot) -> posX;
+        int dotY = (* dot) -> posY;
+        cout << "(" << dotX << ", " << dotY << ")" << endl;
+    }
+
     App app;
     app.initSectors(_dots);
     app.showDotsInSectors();
