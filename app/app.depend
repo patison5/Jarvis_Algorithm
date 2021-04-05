@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1617652560 source:d:\github\jarvis_algorithm\app\src\app.cpp
+	"App.h"
+
+1617652562 d:\github\jarvis_algorithm\app\include\app.h
+	<iostream>
+	<vector>
+	"Dot.h"
+	"Sector.h"
+
+1617652649 d:\github\jarvis_algorithm\app\include\dot.h
+
+1617652798 d:\github\jarvis_algorithm\app\include\sector.h
+	<iostream>
+	<vector>
+	"Dot.h"
+
+1617652635 source:d:\github\jarvis_algorithm\app\src\dot.cpp
+	"Dot.h"
+
+1617652603 source:d:\github\jarvis_algorithm\app\src\sector.cpp
+	"Sector.h"
+
+1617652675 source:d:\github\jarvis_algorithm\app\main.cpp
+	<iostream>
+	<vector>
+	"Dot.h"
+	"Sector.h"
+	"App.h"
+
