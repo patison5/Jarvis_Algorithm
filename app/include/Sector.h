@@ -14,10 +14,8 @@ class Sector
 
         vector <Dot*> _dots;
         vector <Dot*> _MBO;
-        vector <int> _convex_hull;
 
         void JarvisMatch();
-        void JarvisMatch2();
 
     protected:
 

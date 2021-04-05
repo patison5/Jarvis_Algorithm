@@ -64,6 +64,6 @@ void App :: showDotsInSectors() {
 
 void App :: showMBO () {
     for (auto sector = _sectors.begin(); sector != _sectors.end(); ++sector) {
-        (* sector) -> JarvisMatch2();
+        (* sector) -> JarvisMatch();
     }
 }
